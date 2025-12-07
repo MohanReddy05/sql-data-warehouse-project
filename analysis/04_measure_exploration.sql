@@ -94,12 +94,12 @@ FROM
 ========================================================================
 |               mesure_name          |        measure_value            |
 ------------------------------------------------------------------------
-| Total Sales	                       |                   29355985.0000 |
+| Total Sales	                     |                   29355985.0000 |
 | Total Items Sold                   |                      60423.0000 |
 | Average Selling Price	             |                        486.0378 |
-| Total Number of Orders	           |                      27659.0000 |
+| Total Number of Orders	         |                      27659.0000 |
 | Total Number of Products	         |                        295.0000 |
-| Total Customers	                   |                      18484.0000 |
+| Total Customers	                 |                      18484.0000 |
 | No. of customers who placed order	 |                      18484.0000 |
 ------------------------------------------------------------------------
 */
