@@ -6,10 +6,10 @@
 */
 
 -- ===========================================================================
---  Create Dimensiopn: gold.dim_cutomer 
+--  Create Dimension: gold.dim_customer 
 -- ===========================================================================
 
-CREATE VIEW gold.dim_cutomer AS
+CREATE VIEW gold.dim_customer AS
 SELECT
 	ROW_NUMBER() OVER(ORDER BY cst_id) AS customer_key,
 	cci.cst_id AS customer_id,
