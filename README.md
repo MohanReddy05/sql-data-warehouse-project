@@ -57,8 +57,8 @@ Follow these steps to set up the project locally using MySQL.
 
 4.  **Run ETL (Silver & Gold Layers):**
     * Execute the transformation scripts sequentially to cleanse, transform, and model the data. These scripts are written in standard SQL and should be compatible with MySQL:
-        1.  `scripts/silver/transform_to_silver.sql` (Cleansing and Standardization)
-        2.  `scripts/gold/load_dimensional_model.sql` (Star Schema creation and loading)
+        1.  `scripts/silver/dml_silver.sql` (Cleansing and Standardization)
+        2.  `scripts/gold/ddl_gold.sql` (Star Schema creation and loading)
 
 ## 💡 Usage Examples
 
